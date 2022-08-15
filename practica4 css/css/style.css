@@ -1,0 +1,12 @@
+h1{
+    color: rgb(139, 57, 48);
+}
+h2{
+    color: aqua;
+}
+p{
+  font-size: larger;  
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}

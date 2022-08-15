@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Formulario2</h1>
+        <!-- COMIENZO CUERPO DEL FORMULARIO -->
+        <form>
+            <fieldset>
+                <legend>Practica 2</legend>
+                <!-- nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+                <br><br>
+                <!-- Apellido -->
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido">
+                <br><br>
+                <!-- email -->
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <!-- telefono -->
+                <label for="telefono">Telefono:</label>
+                <input type="number" name="celular" id="telefono">
+                <br><br>
+                <!-- campus desplegable -->
+                <label for="campus">Campus </label>
+                <select name="GruposDeCampus" id="campus">
+                    <option selected>--seleccionar--</option>
+                    <option>ingenieria</option>
+                    <option>agraria</option>
+                    <option>humanidades y ciencias </option>
+                    <option>minas</option>
+                    <option>cs Economicas</option>
+                </select>
+                <br><br>
+                <!-- mensaje -->
+                <textarea name="comentario" id="comentario" cols="40" rows="10">comentario</textarea>
+                <br>
+                <!-- check box -->
+                <input type="checkbox" name="checkbox" id="condiciones">
+                <label for="condiciones">Acepto la politica de privacidad</label>
+                <br><br>
+                <!-- boton de envio -->
+                <input type="button" value="Enviar">
+            </fieldset>
+        </form>
+        <!-- FINAL DEL CUERPO DEL FORMULARIO -->
+    </main>
+</body>
+
+</html>
